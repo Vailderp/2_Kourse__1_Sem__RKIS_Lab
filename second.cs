@@ -1,8 +1,8 @@
+using System;
 namespace ConsoleApp1
 {
     class Program
     {
-        //2
         static void Main(string[] args)
         {
             Console.WriteLine("Введите a: ");
@@ -28,10 +28,11 @@ namespace ConsoleApp1
             }
             Console.ReadKey();
         }
+        
         static int add(int a, int b) => a + b;
         static int minus(int a, int b) => a - b;
         static int multiply(int a, int b) => a * b;
         static float split(int a, int b) => (float)a / b;
-}
-}
         
+    }
+}
