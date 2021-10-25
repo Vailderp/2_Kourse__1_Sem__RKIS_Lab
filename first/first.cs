@@ -1,4 +1,9 @@
-static void Main(string[] args)
+namespace ConsoleApp1
+{
+    class Program
+    {
+        //1
+        static void Main(string[] args)
         {
             Console.WriteLine("Введите имя: ");
             string name = Console.ReadLine();
@@ -9,3 +14,6 @@ static void Main(string[] args)
         {
             Console.WriteLine("Здравствуй, " + name);
         }
+        
+    }
+}
