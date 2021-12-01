@@ -12,7 +12,7 @@ namespace ConsoleApp1
         }
         static void SayHello(string name)
         {
-            Console.WriteLine("Здравствуй, " + name);
+            Console.WriteLine($"Здравствуй, {name}");
         }
         
     }
